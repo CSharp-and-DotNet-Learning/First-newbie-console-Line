@@ -1,6 +1,4 @@
-﻿using System.Net.Http.Headers;
-
-Console.WriteLine("Bonjour! comment t'appeles-tu ?");
+﻿Console.WriteLine("Bonjour! comment t'appeles-tu ?");
 string? rep = Console.ReadLine();
 
 Console.WriteLine("Bonjour " + rep + " !");
@@ -9,7 +7,6 @@ Console.WriteLine("Quelle est ton année de naissance ?");
 rep = Console.ReadLine();
 
 int birthDay = int.Parse(rep);
-
 const int yearMin = 1900;
 if (birthDay >= yearMin && birthDay <= DateTime.Today.Year)
 {
